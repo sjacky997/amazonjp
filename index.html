@@ -1,8 +1,256 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+<<<<<<< HEAD
 </head>
 <body>
   
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.co.jp: 香港へ送料無料</title>
+    <!-- Link to external CSS file located in the css folder -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER SECTION ==================== -->
+    <header class="header-main">
+        <!-- Top Header Bar (Dark background) -->
+        <div class="header-top">
+            <!-- Logo Area: Floated to the left -->
+            <div class="logo-area">
+                <a href="#" class="logo-text">amazon<span>.co.jp</span></a>
+            </div>
+
+            <!-- Delivery Info Area: Floated to the left -->
+            <div class="delivery-info">
+                <img src="img/location-icon.png" alt="Location" class="icon-small">
+                <div class="delivery-text">
+                    <span class="text-small">お届け先</span>
+                    <span class="text-bold">香港</span>
+                </div>
+            </div>
+
+            <!-- Search Bar Area: Floated to the left -->
+            <div class="search-bar">
+                <select class="search-select">
+                    <option>すべて</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Amazon.co.jpを検索">
+                <button class="search-button">検索</button>
+            </div>
+
+            <!-- Right Menu Area: Floated to the right -->
+            <div class="header-right">
+                <div class="header-right-item lang-selector">
+                    <img src="img/flag-jp.png" alt="JP" class="icon-flag">
+                    <span>JP</span>
+                </div>
+                <div class="header-right-item account-info">
+                    <span class="text-small">こんにちは, ログイン</span>
+                    <span class="text-bold">アカウント＆リスト</span>
+                </div>
+                <div class="header-right-item returns-info">
+                    <span class="text-small">返品もこちら</span>
+                    <span class="text-bold">注文履歴</span>
+                </div>
+                <div class="header-right-item cart-info">
+                    <span class="cart-count">0</span>
+                    <img src="img/cart-icon.png" alt="Cart" class="icon-cart">
+                    <span class="text-bold">カート</span>
+                </div>
+            </div>
+        </div>
+        <!-- End of Top Header Bar -->
+
+        <!-- Bottom Navigation Bar (Dark blue background) -->
+        <nav class="header-bottom">
+            <ul class="nav-list">
+                <li><a href="#">すべて</a></li>
+                <li><a href="#">Amazonポイント</a></li>
+                <li><a href="#">ランキング</a></li>
+                <li><a href="#">タイムセール</a></li>
+                <li><a href="#">Amazon Basics</a></li>
+                <li><a href="#">AmazonGlobal</a></li>
+                <li><a href="#">新着商品</a></li>
+                <li><a href="#">本</a></li>
+                <li><a href="#">カスタマーサービス</a></li>
+            </ul>
+        </nav>
+        <!-- End of Bottom Navigation Bar -->
+    </header>
+    <!-- ==================== END HEADER SECTION ==================== -->
+
+
+    <!-- ==================== MAIN CONTENT SECTION ==================== -->
+    <main class="main-content">
+        
+        <!-- Hero Banner Section -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>対象商品は12,000円以上のお買い上げで<br>香港へ送料無料</h1>
+                <img src="img/box-plane.png" alt="Shipping to HK" class="hero-image">
+            </div>
+        </section>
+        <!-- End of Hero Banner Section -->
+
+        <!-- Region Notice Section -->
+        <div class="region-notice">
+            <p>お住まいの地域でご利用いただける商品を掲載しています。上部のメニューから各地域をお選びいただけます。 <a href="#">海外配送の詳細はこちらをご覧ください。</a></p>
+        </div>
+        <!-- End of Region Notice Section -->
+
+        <!-- Product Grid Section (Using float and overflow hidden to clear floats) -->
+        <div class="content-grid">
+            
+            <!-- Card 1: Direct Shipping Popular Items -->
+            <div class="card">
+                <h2>日本からの直送人気商品</h2>
+                <img src="img/matcha.jpg" alt="Matcha" class="card-main-img">
+                <a href="#" class="card-link">もっと見る</a>
+            </div>
+
+            <!-- Card 2: Free Shipping Promo -->
+            <div class="card">
+                <h2>香港へ送料無料</h2>
+                <div class="shipping-promo">
+                    <img src="img/free-shipping.png" alt="Free Shipping" class="card-main-img">
+                    <p class="promo-text">対象商品は12,000円以上のお買い上げで</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Home & Kitchen (Inner 2x2 grid using float) -->
+            <div class="card">
+                <h2>ホーム＆キッチン</h2>
+                <div class="card-inner-grid">
+                    <div class="inner-grid-item">
+                        <img src="img/furniture.jpg" alt="Furniture">
+                        <p>家具</p>
+                    </div>
+                    <div class="inner-grid-item">
+                        <img src="img/pot.jpg" alt="Pot">
+                        <p>鍋・フライパン</p>
+                    </div>
+                    <div class="inner-grid-item">
+                        <img src="img/interior.jpg" alt="Interior">
+                        <p>インテリア</p>
+                    </div>
+                    <div class="inner-grid-item">
+                        <img src="img/kitchen.jpg" alt="Kitchen">
+                        <p>調理・製菓道具</p>
+                    </div>
+                </div>
+                <a href="#" class="card-link">もっと見る</a>
+            </div>
+
+            <!-- Card 4: Login Prompt -->
+            <div class="card login-card">
+                <h2>おすすめを見るにはログインしてください</h2>
+                <button class="btn-yellow">ログイン</button>
+                <div class="login-promo">
+                    <h3>Amazon からの海外配送</h3>
+                    <p>海外配送の詳細はこちらをご覧ください。</p>
+                    <img src="img/overseas-delivery.jpg" alt="Overseas" class="card-main-img">
+                </div>
+            </div>
+            
+        </div>
+        <!-- End of Product Grid Section -->
+
+        <!-- Carousel Section (Using clearfix method to clear floats) -->
+        <div class="carousel-section clearfix">
+            <h2>おすすめのおもちゃのトップセラー</h2>
+            <div class="carousel-track">
+                <!-- Toy Items: Floated to the left -->
+                <div class="carousel-item"><img src="img/toy1.jpg" alt="Toy 1"></div>
+                <div class="carousel-item"><img src="img/toy2.jpg" alt="Toy 2"></div>
+                <div class="carousel-item"><img src="img/toy3.jpg" alt="Toy 3"></div>
+                <div class="carousel-item"><img src="img/toy4.jpg" alt="Toy 4"></div>
+                <div class="carousel-item"><img src="img/toy5.jpg" alt="Toy 5"></div>
+                <div class="carousel-item"><img src="img/toy6.jpg" alt="Toy 6"></div>
+            </div>
+        </div>
+        <!-- End of Carousel Section -->
+
+        <!-- Bottom Login Prompt Section -->
+        <div class="bottom-login-prompt">
+            <h2>お客様へのおすすめ商品を表示</h2>
+            <button class="btn-yellow">ログイン</button>
+            <p>初めてご利用ですか? <a href="#">新規登録はこちら</a></p>
+        </div>
+        <!-- End of Bottom Login Prompt Section -->
+        
+    </main>
+    <!-- ==================== END MAIN CONTENT SECTION ==================== -->
+
+
+    <!-- ==================== FOOTER SECTION ==================== -->
+    <footer class="footer-main">
+        
+        <!-- Footer Top Links (Using overflow hidden to clear floats) -->
+        <div class="footer-top">
+            <div class="footer-col">
+                <h3>Amazonについて</h3>
+                <ul>
+                    <li><a href="#">採用情報</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Newsroom</a></li>
+                    <li><a href="#">環境への取り組み</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Amazonでビジネス</h3>
+                <ul>
+                    <li><a href="#">Amazonで販売する</a></li>
+                    <li><a href="#">フルフィルメント by Amazon</a></li>
+                    <li><a href="#">マケプレプライム</a></li>
+                    <li><a href="#">Amazonビジネスで法人販売</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Amazonでのお支払い</h3>
+                <ul>
+                    <li><a href="#">Amazonポイント</a></li>
+                    <li><a href="#">Amazonギフトカード</a></li>
+                    <li><a href="#">Amazon Mastercard</a></li>
+                    <li><a href="#">クレジットカード＆保険</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>ヘルプ＆ガイド</h3>
+                <ul>
+                    <li><a href="#">配送料と配送情報</a></li>
+                    <li><a href="#">Amazon プライム</a></li>
+                    <li><a href="#">商品の返品・交換</a></li>
+                    <li><a href="#">コンテンツと端末の管理</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of Footer Top Links -->
+
+        <!-- Footer Middle Section -->
+        <div class="footer-middle">
+            <a href="#" class="footer-logo">amazon</a>
+            <div class="footer-settings">
+                <button class="footer-btn">日本語</button>
+                <button class="footer-btn">日本</button>
+            </div>
+        </div>
+        <!-- End of Footer Middle Section -->
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-links">
+                <a href="#">利用規約</a> | <a href="#">プライバシー規約</a> | <a href="#">パーソナライズド広告規約</a> | <a href="#">各種規約</a>
+            </div>
+            <p>© 1996-2026, Amazon.com, Inc. またはその関連会社</p>
+        </div>
+        <!-- End of Footer Bottom Section -->
+
+    </footer>
+    <!-- ==================== END FOOTER SECTION ==================== -->
+
+>>>>>>> 6737b3e (second commit)
 </body>
 </html>
