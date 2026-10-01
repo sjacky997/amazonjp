@@ -1,29 +1,19 @@
-/* ==========================================================================
-   GLOBAL RESET
-   Clears inner and outer margins for all elements to ensure consistent layout.
-   ========================================================================== */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* ==========================================================================
-   HEADER SECTION STYLES
-   Controls the topmost navigation area containing logo, search, and menus.
-   ========================================================================== */
 .header-main {
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-/* Controls the top header bar. Uses overflow: hidden to clear the floated children. */
 .header-top {
     background-color: #131921;
     padding: 10px 15px;
-    overflow: hidden; /* Clear float method 1: overflow hidden */
+    overflow: hidden;
 }
 
-/* Controls the logo block. Floats left so it sits on the left side of the header. */
 .logo-area {
     float: left;
     margin-right: 20px;
@@ -39,17 +29,15 @@
     font-size: 14px;
 }
 
-/* Controls the delivery address block. Floats left next to the logo. */
 .delivery-info {
     float: left;
     margin-right: 20px;
     margin-top: 5px;
 }
 
-/* Controls the central search bar block. Floats left, taking up remaining width. */
 .search-bar {
     float: left;
-    width: 50%; /* Fixed width to allow floats to fit properly */
+    width: 50%;
     height: 40px;
     background-color: #ffffff;
     border: 1px solid #cdcdcd;
@@ -79,13 +67,11 @@
     font-weight: bold;
 }
 
-/* Controls the right-side menu block. Floats right to align items to the far right. */
 .header-right {
     float: right;
     margin-top: 5px;
 }
 
-/* Controls individual items inside the right menu. Floats them left so they sit in a row. */
 .header-right-item {
     float: left;
     margin-left: 20px;
@@ -105,7 +91,6 @@
     font-weight: bold;
 }
 
-/* Controls the cart icon and count. */
 .cart-info {
     float: left;
 }
@@ -119,16 +104,16 @@
     height: 20px;
 }
 
-/* Controls the bottom navigation bar. Uses overflow: hidden to clear floats. */
 .header-bottom {
     background-color: #232f3e;
     padding: 5px 15px;
-    overflow: hidden; /* Clear float method 1: overflow hidden */
+    overflow: hidden;
 }
+
 .nav-list {
     list-style: none;
 }
-/* Controls nav items. Floats them left to create a horizontal list. */
+
 .nav-list li {
     float: left;
     margin-right: 15px;
@@ -145,20 +130,15 @@
 }
 
 
-/* ==========================================================================
-   MAIN CONTENT SECTION STYLES
-   Controls the hero banner, product grids, and promotional areas.
-   ========================================================================== */
 .main-content {
     background-color: #eaeded;
     font-family: Arial, sans-serif;
 }
 
-/* Controls the hero banner background and alignment. */
 .hero-banner {
-    background-color: #f5d78e; /* Approximate color from screenshot */
+    background-color: #f5d78e;
     height: 300px;
-    text-align: center; /* Centers inline-block content */
+    text-align: center;
     padding-top: 50px;
 }
 .hero-content h1 {
@@ -172,7 +152,6 @@
     height: 100px;
 }
 
-/* Controls the small notice bar below the hero banner. */
 .region-notice {
     background-color: #f3f3f3;
     padding: 10px 20px;
@@ -187,25 +166,23 @@
     text-decoration: underline;
 }
 
-/* Controls the main 4-column product grid. Uses overflow: hidden to clear floated cards. */
 .content-grid {
     width: 1000px;
     margin: 0 auto;
     padding: 20px 0;
-    overflow: hidden; /* Clear float method 1: overflow hidden */
+    overflow: hidden;
 }
 
-/* Controls individual product cards. Floats them left to create a 4-column layout. */
 .card {
     float: left;
-    width: 23%; /* Four cards width (approx 23% each with margins) */
+    width: 23%;
     margin-right: 2%;
     background-color: #ffffff;
     padding: 15px;
-    height: 400px; /* Fixed height to keep cards aligned */
+    height: 400px;
 }
 .card:last-child {
-    margin-right: 0; /* Removes margin on the last card */
+    margin-right: 0;
 }
 .card h2 {
     font-size: 21px;
@@ -228,9 +205,8 @@
     color: #c7511f;
 }
 
-/* Controls the inner 2x2 grid inside a card. Uses float for layout. */
 .card-inner-grid {
-    overflow: hidden; /* Clears floats inside the card */
+    overflow: hidden;
 }
 .inner-grid-item {
     float: left;
@@ -246,7 +222,6 @@
     font-size: 12px;
 }
 
-/* Controls the specific styling for the login card. */
 .login-card {
     text-align: center;
 }
@@ -271,7 +246,6 @@
     margin-bottom: 10px;
 }
 
-/* Controls the horizontal carousel section. Uses .clearfix class for clearing floats. */
 .carousel-section {
     width: 1000px;
     margin: 20px auto;
@@ -282,7 +256,7 @@
     font-size: 21px;
     margin-bottom: 15px;
 }
-/* Controls individual carousel items. Floats them left to align horizontally. */
+
 .carousel-item {
     float: left;
     width: 150px;
@@ -293,15 +267,12 @@
     height: 150px;
 }
 
-/* Clearfix method 2: Using an ::after pseudo-element to clear floated children.
-   This is applied to the parent container (.carousel-section). */
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
 
-/* Controls the bottom login prompt area. */
 .bottom-login-prompt {
     text-align: center;
     background-color: #ffffff;
@@ -327,26 +298,19 @@
     color: #c7511f;
 }
 
-
-/* ==========================================================================
-   FOOTER SECTION STYLES
-   Controls the bottom link columns and copyright information.
-   ========================================================================== */
 .footer-main {
     background-color: #232f3e;
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-/* Controls the top part of the footer containing 4 columns of links.
-   Uses overflow: hidden to clear the floated columns. */
 .footer-top {
     width: 1000px;
     margin: 0 auto;
     padding: 40px 0;
-    overflow: hidden; /* Clear float method 1: overflow hidden */
+    overflow: hidden;
 }
-/* Controls individual footer columns. Floats them left to create a 4-column layout. */
+
 .footer-col {
     float: left;
     width: 25%;
@@ -370,7 +334,6 @@
     text-decoration: underline;
 }
 
-/* Controls the middle part of the footer (Logo and language settings). */
 .footer-middle {
     text-align: center;
     padding: 30px 0;
@@ -399,7 +362,6 @@
     border-color: #ffffff;
 }
 
-/* Controls the bottom part of the footer (Copyright and legal links). */
 .footer-bottom {
     background-color: #131a22;
     padding: 30px 0;
