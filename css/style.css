@@ -1,19 +1,27 @@
+/*Student ID: 23577648*/
+/*Name: Lo Mau Lam (Jacky)*/
+/*Github Link: https://github.com/sjacky997/amazonjp*/
+
+/* reset all default margin and padding*/
 * {
     margin: 0;
     padding: 0;
 }
 
+/* header */
 .header-main {
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
+/* header-top */
 .header-top {
     background-color: #131921;
     padding: 10px 15px;
     overflow: hidden;
 }
 
+/* logo */
 .logo-area {
     float: left;
     margin-right: 20px;
@@ -29,12 +37,14 @@
     font-size: 14px;
 }
 
+/* delivery info*/
 .delivery-info {
     float: left;
     margin-right: 20px;
     margin-top: 5px;
 }
 
+/* search bar */
 .search-bar {
     float: left;
     width: 50%;
@@ -67,11 +77,11 @@
     font-weight: bold;
 }
 
+/* right menu */
 .header-right {
     float: right;
     margin-top: 5px;
 }
-
 .header-right-item {
     float: left;
     margin-left: 20px;
@@ -91,6 +101,7 @@
     font-weight: bold;
 }
 
+/* cart */
 .cart-info {
     float: left;
 }
@@ -104,16 +115,15 @@
     height: 20px;
 }
 
+/* bottom nav */
 .header-bottom {
     background-color: #232f3e;
     padding: 5px 15px;
     overflow: hidden;
 }
-
 .nav-list {
     list-style: none;
 }
-
 .nav-list li {
     float: left;
     margin-right: 15px;
@@ -129,12 +139,13 @@
     border: 1px solid #ffffff;
 }
 
-
+/* main content*/
 .main-content {
     background-color: #eaeded;
     font-family: Arial, sans-serif;
 }
 
+/* hero */
 .hero-banner {
     background-color: #f5d78e;
     height: 300px;
@@ -152,6 +163,7 @@
     height: 100px;
 }
 
+/* region notice */
 .region-notice {
     background-color: #f3f3f3;
     padding: 10px 20px;
@@ -166,13 +178,13 @@
     text-decoration: underline;
 }
 
+/* product grid */
 .content-grid {
     width: 1000px;
     margin: 0 auto;
     padding: 20px 0;
     overflow: hidden;
 }
-
 .card {
     float: left;
     width: 23%;
@@ -205,6 +217,7 @@
     color: #c7511f;
 }
 
+/* card inner grid */
 .card-inner-grid {
     overflow: hidden;
 }
@@ -222,6 +235,7 @@
     font-size: 12px;
 }
 
+/* login card */
 .login-card {
     text-align: center;
 }
@@ -246,6 +260,7 @@
     margin-bottom: 10px;
 }
 
+/* carousel */
 .carousel-section {
     width: 1000px;
     margin: 20px auto;
@@ -256,7 +271,6 @@
     font-size: 21px;
     margin-bottom: 15px;
 }
-
 .carousel-item {
     float: left;
     width: 150px;
@@ -267,12 +281,14 @@
     height: 150px;
 }
 
+/* clearfix */
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
 
+/* login prompt */
 .bottom-login-prompt {
     text-align: center;
     background-color: #ffffff;
@@ -298,19 +314,18 @@
     color: #c7511f;
 }
 
+/* footer */
 .footer-main {
     background-color: #232f3e;
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
-
 .footer-top {
     width: 1000px;
     margin: 0 auto;
     padding: 40px 0;
     overflow: hidden;
 }
-
 .footer-col {
     float: left;
     width: 25%;
@@ -334,6 +349,7 @@
     text-decoration: underline;
 }
 
+/* footer middle */
 .footer-middle {
     text-align: center;
     padding: 30px 0;
@@ -362,6 +378,7 @@
     border-color: #ffffff;
 }
 
+/* footer bottom */
 .footer-bottom {
     background-color: #131a22;
     padding: 30px 0;
